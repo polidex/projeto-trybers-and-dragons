@@ -1,4 +1,3 @@
-import { emitKeypressEvents } from 'readline';
 import Archetype, { Mage } from './Archetypes';
 import Energy from './Energy';
 import Fighter from './Fighter';
