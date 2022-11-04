@@ -1,4 +1,4 @@
-import { SimpleFighter } from "./Fighter";
+import { SimpleFighter } from './Fighter';
 
 class Monster implements SimpleFighter {
   private _lifePoints: number;
@@ -31,3 +31,5 @@ class Monster implements SimpleFighter {
     enemy.receiveDamage(this._strength);
   }
 }
+
+export default Monster;
